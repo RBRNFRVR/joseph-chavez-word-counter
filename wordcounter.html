@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <h1>THE TEXT INFORMATION CENTER</h1>
+    </head>
+    <script src="node_modules/" type="modules"></script>
+    <!-- <style src="./wordcounter.css"></style> -->
+    <link rel="stylesheet" href="./wordcounter.css">
+    
+    <body>
+        <textarea form="text-form" id="text-box-field" rows="10" cols="35" placeholder="Enter Your Text Here..."></textarea>
+        <br>
+      <form id="text-form">
+        <label for="text-options">Choose an Option:</label>
+        <select id="text-options" name="text-options">
+          <option value="character-count">Character Count</option>
+          <option value="word-count">Word Count</option>
+          <option value="sentence-count">Sentence Count</option>
+          <option value="paragraph-count">Paragraph Count</option>
+          <option value="bigrams">Bigrams</option>
+          <option value="randomizer">Randomizer</option>
+        </select>
+        <input id="submit" type="submit">
+      </form>
+      <div id="result"></div>
+
+
+      <script src="./wordcounter.js"></script>
+    </body>
+</html>

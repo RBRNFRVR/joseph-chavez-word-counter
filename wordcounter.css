@@ -1,0 +1,20 @@
+body {
+    background-color: teal;
+    text-align: center;
+    list-style-type: none;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+.text-words{
+    color: white;
+}
+.text-form{
+    display: inline-block;
+}
+
+.result{
+    color: tomato;
+}
